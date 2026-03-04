@@ -6,10 +6,53 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-  printf("Ola, aprendendo!\n");
-  // Área para entrada de dados
+  
+  // carta01//
 
-  // Área para exibição dos dados da cidade
+  char estado01;
+  char codigo01[5];
+  char nomecidade01[50];
+  int populacao01;
+  float area01;
+  float pib01;
+  int pontosturisticos01;
+  
+  // Área para entrada de dados
+   
+   printf("Cadastramento de carta 01 \n");
+
+   printf("Digite o estado: \n");
+   scanf("%c", &estado01);
+
+   printf("Digite o codigo da carta (ex: A01): ");
+   scanf("%s", &codigo01);
+
+   printf("Digite o nome da cidade: ");
+   scanf("%s", nomecidade01);
+
+   printf("Digite a populacao: ");
+   scanf("%d", &populacao01);
+
+   printf("Digite a area km2: ");
+   scanf("%f", &area01);
+
+   printf("Digite o PIB: ");
+   scanf("%f", &pib01);
+
+   printf("Digite o numero de pontos turisticos: ");
+   scanf("%d", &pontosturisticos01);
+
+     // Área para exibição dos dados da cidade
+
+     printf("Carta 01: \n");
+     printf("Estado: %c \n", estado01);
+     printf("Codigo: %s\n", codigo01);
+     printf("Nome da Cidade: %s \n", nomecidade01);
+     printf("Populacao: %d \n", populacao01);
+     printf("Area: %.2f km2 \n", area01);
+     printf("PIB: %.2f \n", pib01);
+     printf("Numero de Pontos Turisticos: %d \n", pontosturisticos01);
+
 
 return 0;
 } 
