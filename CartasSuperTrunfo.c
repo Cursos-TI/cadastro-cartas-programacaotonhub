@@ -21,7 +21,7 @@ int pontosturisticos01;
  
  printf("Cadastramento de carta 01 \n \n");
 
- printf("Digite o estado: ");
+ printf("Digite o estado (A a B): ");
  scanf("%s", &estado01);
 
  printf("Digite o codigo da carta (ex: A01): ");
